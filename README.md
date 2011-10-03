@@ -1,4 +1,4 @@
- # INSTALL #
+# INSTALL #
 
 ```bash
 $ cd ~/
