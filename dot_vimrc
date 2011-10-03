@@ -1,0 +1,17 @@
+filetype indent on
+filetype plugin on
+set autoindent
+set tw=79
+syntax on
+set encoding=utf8
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set nu
+colorscheme fine_blue
+
+"Template Toolkit
+au BufNewFile,BufRead *.tt2 setf tt2
+let b:tt2_syn_tags = '\[% %] <!-- -->'
+
+let g:tex_flavor = "latex"
