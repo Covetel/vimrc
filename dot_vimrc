@@ -8,10 +8,12 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set nu
-colorscheme fine_blue
+colorscheme pablo
 
 "Template Toolkit
 au BufNewFile,BufRead *.tt2 setf tt2
 let b:tt2_syn_tags = '\[% %] <!-- -->'
 
 let g:tex_flavor = "latex"
+
+set guifont="Verdana\ Bold\ 14"
