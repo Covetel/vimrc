@@ -9,9 +9,37 @@ set shiftwidth=4
 set expandtab
 set nu
 colorscheme fine_blue
+set history=1000
+set spell spelllang=es
 
 "Template Toolkit
 au BufNewFile,BufRead *.tt2 setf tt2
 let b:tt2_syn_tags = '\[% %] <!-- -->'
 
 let g:tex_flavor = "latex"
+
+" New Features
+set undofile
+
+" UI
+set showmode
+set cursorline
+set linespace=0
+set showmatch
+set incsearch
+set hlsearch
+set ignorecase
+set smartcase
+set wildmenu
+set wildmode=list:longest,full
+set pastetoggle=<F12>
+
+cmap W w
+cmap WQ wq
+cmap wQ wq
+cmap Q q
+
+" Removing widgets
+set guioptions-=m "remove menu bar
+set guioptions-=T "remove toolbar
+set guioptions-=r "remove right-hand scroll bar
