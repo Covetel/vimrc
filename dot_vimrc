@@ -1,7 +1,7 @@
 filetype indent on
 filetype plugin on
 set autoindent
-set tw=79
+set tw=74
 syntax on
 set encoding=utf8
 set tabstop=4
